@@ -1,0 +1,334 @@
+<html>
+
+<head>
+    <title>3SECOND</title>
+    <link rel="preconnect" href="https://fonts.google.com">
+    <link rel="preconnect" href="https://fonts.google.com" crossorigin="">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,weight@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="" />
+            </a>
+        </div>
+
+        <ul class="navbar-teks">
+            <li><a href="men.html">MEN</a></li>
+            <li><a href="ladies.html">LADIES</a></li>
+            <li><a href="kids.html">KIDS</a></li>
+            <li>
+                <a href="collab.html">COLLAB ▼</a>
+                <ul>
+                    <li><a href="3s.html">3SECOND</a></li>
+                    <li><a href="gt.html">GREENLIGHT</a></li>
+                    <li><a href="t2.html">THREE2ND</a></li>
+                    <li><a href="mt.html">MOUTLEY</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="navbar-icon">
+            <div class="search-kotak">
+                <input type="text" placeholder="Cari nama produk..." />
+                <button type="submit"><i data-feather="search"></i></button>
+            </div>
+            <div class="navbar-icon1">
+                <a href="#"><i data-feather="shopping-cart"></i></a>
+                <a href="#"><i data-feather="user"></i><span>Masuk</span></a>
+            </div>
+        </div>
+    </nav>
+    <!-- end -->
+
+    <!-- kategori -->
+    <div class="title-men">
+        <h3>Pria</h3>
+        <p>Temukan koleksi fashion pria terkini yang menggabungkan gaya maskulin dan kenyamanan untuk berbagai
+            aktivitas.</p>
+    </div>
+    <div class="kategori">
+        <div class="kategori-group">
+            <!-- <i data-feather="filter"></i> -->
+
+            <select id="kategoriSelect" onchange="navigateSelect(this)">
+                <option selected disabled>Kategori</option>
+                <option value="men.html">Pria</option>
+                <option value="kids.html">Anak</option>
+                <option value="ladies.html">Wanita</option>
+            </select>
+
+            <select id="brandSelect" onchange="navigateSelect(this)">
+                <option selected disabled>Brand</option>
+                <option value="3s.html">3Second</option>
+                <option value="gt.html">Greenlight</option>
+                <option value="mt.html">Moutley</option>
+                <option value="t2.html">Three2nd</option>
+            </select>
+        </div>
+        <!-- <div class="sort-by">
+            <i data-feather="layers"></i>
+            <span>Sort By</span>
+        </div> -->
+    </div>
+
+    <div class="produk-info">
+        <p><span id="total-items">0</span> Items ditemukan</p>
+    </div>
+    <!-- end -->
+
+    <!-- show produk -->
+    <section class="new-arrivals">
+        <!-- Produk 1 -->
+        <div class="show">
+            <div class="show-produk">
+                <div class="diskon">20%</div>
+                <div class="love-icon"><i data-feather="heart"></i></div>
+                <img src="img/1.jpeg" alt="">
+                <div class="show-teks">
+                    <h3>3SECOND MEN'S COLLAR T-SHIRT SHORT SLEEVE SLIM FIT SPORTY</h3>
+                    <p class="harga"><span class="asli">Rp249.000</span> Rp199.200</p>
+                </div>
+            </div>
+
+            <!-- Produk 2 -->
+            <div class="show-produk">
+                <div class="diskon">5%</div>
+                <div class="love-icon"><i data-feather="heart"></i></div>
+                <img src="img/2.jpeg" alt="">
+                <div class="show-teks">
+                    <h3>3SECOND KIDS BOY'S T-SHIRT SHORT SLEEVE REGULAR FIT</h3>
+                    <p class="harga"><span class="asli">Rp99.000</span> Rp94.050</p>
+                </div>
+            </div>
+
+            <!-- Produk 3 -->
+            <div class="show-produk">
+                <div class="diskon">5%</div>
+                <div class="love-icon"><i data-feather="heart"></i></div>
+                <img src="img/3.jpeg" alt="">
+                <div class="show-teks">
+                    <h3>3SECOND KIDS GIRL'S T-SHIRT SHORT SLEEVE REGULAR FIT</h3>
+                    <p class="harga"><span class="asli">Rp89.000</span> Rp84.550</p>
+                </div>
+            </div>
+
+            <!-- Produk 4 -->
+            <div class="show-produk">
+                <div class="diskon">5%</div>
+                <div class="love-icon"><i data-feather="heart"></i></div>
+                <img src="img/4.jpeg" alt="">
+                <div class="show-teks">
+                    <h3>3SECOND KIDS GIRL'S T-SHIRT SHORT SLEEVE REGULAR FIT</h3>
+                    <p class="harga"><span class="asli">Rp89.000</span> Rp84.550</p>
+                </div>
+            </div>
+
+            <!-- Produk 5 -->
+            <div class="show-produk">
+                <div class="diskon">20%</div>
+                <div class="love-icon"><i data-feather="heart"></i></div>
+                <img src="img/5.jpeg" alt="">
+                <div class="show-teks">
+                    <h3>3SECOND MEN'S COLLAR T-SHIRT SHORT SLEEVE SLIM FIT SPORTY</h3>
+                    <p class="harga"><span class=asli">Rp249.000</span> Rp199.200</p>
+                </div>
+            </div>
+
+            <!-- Produk 6 -->
+            <div class="show-produk">
+                <div class="diskon">5%</div>
+                <div class="love-icon"><i data-feather="heart"></i></div>
+                <img src="img/6.jpeg" alt="">
+                <div class="show-teks">
+                    <h3>3SECOND KIDS BOY'S T-SHIRT SHORT SLEEVE REGULAR FIT</h3>
+                    <p class="harga"><span class="asli">Rp99.000</span> Rp94.050</p>
+                </div>
+            </div>
+
+            <!-- Produk 7 -->
+            <div class="show-produk">
+                <div class="diskon">5%</div>
+                <div class="love-icon"><i data-feather="heart"></i></div>
+                <img src="img/7.jpeg" alt="">
+                <div class="show-teks">
+                    <h3>3SECOND KIDS GIRL'S T-SHIRT SHORT SLEEVE REGULAR FIT</h3>
+                    <p class="harga"><span class="asli">Rp89.000</span> Rp84.550</p>
+                </div>
+            </div>
+
+            <!-- Produk 8 -->
+            <div class="show-produk">
+                <div class="diskon">5%</div>
+                <div class="love-icon"><i data-feather="heart"></i></div>
+                <img src="img/8.jpeg" alt="">
+                <div class="show-teks">
+                    <h3>3SECOND KIDS GIRL'S T-SHIRT SHORT SLEEVE REGULAR FIT</h3>
+                    <p class="harga"><span class="asli">Rp89.000</span> Rp84.550</p>
+                </div>
+            </div>
+            <!-- Produk 9 -->
+            <div class="show-produk">
+                <div class="diskon">20%</div>
+                <div class="love-icon"><i data-feather="heart"></i></div>
+                <img src="img/9.jpeg" alt="">
+                <div class="show-teks">
+                    <h3>3SECOND MEN'S COLLAR T-SHIRT SHORT SLEEVE SLIM FIT SPORTY</h3>
+                    <p class="harga"><span class="asli">Rp249.000</span> Rp199.200</p>
+                </div>
+            </div>
+
+            <!-- Produk 10 -->
+            <div class="show-produk">
+                <div class="diskon">5%</div>
+                <div class="love-icon"><i data-feather="heart"></i></div>
+                <img src="img/10.jpeg" alt="">
+                <div class="show-teks">
+                    <h3>3SECOND KIDS BOY'S T-SHIRT SHORT SLEEVE REGULAR FIT</h3>
+                    <p class="harga"><span class="asli">Rp99.000</span> Rp94.050</p>
+                </div>
+            </div>
+
+            <!-- Produk 11 -->
+            <div class="show-produk">
+                <div class="diskon">5%</div>
+                <div class="love-icon"><i data-feather="heart"></i></div>
+                <img src="img/11.jpeg" alt="">
+                <div class="show-teks">
+                    <h3>3SECOND KIDS GIRL'S T-SHIRT SHORT SLEEVE REGULAR FIT</h3>
+                    <p class="harga"><span class="asli">Rp89.000</span> Rp84.550</p>
+                </div>
+            </div>
+
+            <!-- Produk 12 -->
+            <div class="show-produk">
+                <div class="diskon">5%</div>
+                <div class="love-icon"><i data-feather="heart"></i></div>
+                <img src="img/12.jpeg" alt="">
+                <div class="show-teks">
+                    <h3>3SECOND KIDS GIRL'S T-SHIRT SHORT SLEEVE REGULAR FIT</h3>
+                    <p class="harga"><span class="asli">Rp89.000</span> Rp84.550</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="footer-teks">
+                <h4>Shop By Collection</h4>
+                <ul>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="ladies.html">Ladies</a></li>
+                    <li><a href="kids.html">Kids</a></li>
+                    <li><a href="collab.html">COLLAB</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-teks">
+                <h4>Brand Produk</h4>
+                <ul>
+                    <li><a href="3s.html">3Second</a></li>
+                    <li><a href="gt.html">Greenlight</a></li>
+                    <li><a href="mt.html">Moutley</a></li>
+                    <li><a href="t2.html">Three2nd</a></li>
+                    <li><a href="men.html">3Second Men</a></li>
+                    <li><a href="ladies.html">3Second Ladies</a></li>
+                    <li><a href="kids.html">3Second Kids</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-teks">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Copyright Policy</a></li>
+                    <li><a href="">Term & Conditions</a></li>
+                    <li><a href="">Stores</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Career</a></li>
+                    <li><a href="">Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-teks">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="">How to Shop</a></li>
+                    <li><a href="">Size Chart</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Terms and Check</a></li>
+                    <li><a href="">Delivery</a></li>
+                    <li><a href="">Returns and Refunds</a></li>
+                    <li><a href="">Voucher Use</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-teks">
+                <h4>Service</h4>
+                <ul>
+                    <li>Working Hours and Days</li>
+                    <li>09:00 - 17:00</li>
+                    <li>(Monday - Sunday)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-all">
+            <div class="social-icon">
+                <a href=""><i data-feather="instagram"></i></a>
+                <a href=""><i data-feather="facebook"></i></a>
+                <a href=""><i data-feather="music"></i></a>
+                <a href=""><i data-feather="twitter"></i></a>
+                <a href=""><i data-feather="link"></i></a>
+                <a href=""><i data-feather="linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-batas"></div>
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div>
+                © 2025 3Second & Dava. All rights reserved.
+            </div>
+            <div class="footer-bottom-links">
+                <a href="">Privacy Policy</a>
+                <a href="">Terms and Condition</a>
+                <a href="">Cookie Policy</a>
+                <a href=""><i data-feather="globe" class="footer-lgo"></i> Indonesia</a>
+            </div>
+        </div>
+    </footer>
+    <!-- end -->
+
+
+    <script>
+        const totalProduk = document.querySelectorAll('.show-produk').length;
+        document.getElementById('total-items').textContent = totalProduk;
+
+        function navigateSelect(selectElement) {
+            const selectedValue = selectElement.value;
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        }
+    </script>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
