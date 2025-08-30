@@ -874,7 +874,16 @@ body {
 .detail-zoom {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-right: -50px;
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-right: -20px;
+  width: -200px;
+  padding-left: -50px;
+  height: 500px;
+}
+
+.btn-close {
+  margin-top: 20px;
+  padding-right: 2600px;
+  display: flex;
+  justify-content: center;
 }
